@@ -1,7 +1,5 @@
 package org.example.ComplejidadAlgoritmica.src.javaapplication1;
 
-import java.util.List;
-
 public class MetodosPrueba {
     public void m1(int n) {
     for (int i = 0; i < n; ++i)
@@ -62,14 +60,15 @@ public class MetodosPrueba {
     }
 
 
-    public void m7(int n) {
-        for (int i = 0; i < n; i *= 2) {
+    public void m7(double n) {
+        for (double i = 1; i < n; i *= 2) {
             try {
                 Thread.sleep(100L);
             } catch (InterruptedException var4) {
             }
         }
     }
+
 
 }
 
